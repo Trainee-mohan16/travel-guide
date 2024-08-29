@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .destination-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .destination-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .destination-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .destination-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .destination-card p {
+    color: #666;
+  }
+  
+  .destination-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .destination-card a:hover {
+    text-decoration: underline;
+  }
+  
